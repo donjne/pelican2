@@ -6,7 +6,7 @@ const Contact = () => {
     <div className="bg-gray-800 text-gray-100 text-center px-4 md:px-0 py-8">
       <h1 className="text-3xl font-bold mb-6">Contact Us</h1>
       <div className="flex flex-col md:flex-row justify-center space-y-4 md:space-y-0 md:space-x-8">
-        <div className="w-full md:w-1/2 md:text-left">
+        <div className="w-full md:w-1/2">
           <div className="mb-6">
             <h2 className="flex items-center justify-center text-xl font-semibold mb-2">
               <i className="bx bx-globe mr-2 text-white"></i>
