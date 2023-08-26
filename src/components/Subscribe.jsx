@@ -5,8 +5,8 @@ const Subscribe = () => {
     <div className="bg-gray-800 p-6">
       <div className="max-w-md mx-auto">
         <div className='flex items-center justify-center'>
-          <h1 className="text-center text-2xl font-bold mb-4 text-white">Subscribe to Our Newsletter</h1>
-          <i className='bx bxs-news ml-2 text-4xl text-white'></i>
+          <h1 className="text-center text-2xl font-bold mb-4 text-white">Subscribe to Our Newsletter<i className='bx bxs-news ml-2 text-4xl text-white'></i></h1>
+          
         </div>
         <p className="text-center text-gray-300 mb-4">Stay in touch to get updates and news from across our businesses.</p>
         
