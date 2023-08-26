@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import logo from '../assets/BIG-LOGO.png'
 import Body from './Body';
 import Services from './Services';
@@ -13,7 +13,7 @@ import MenuButton from './MenuButton';
 const Navbar = () => {
   return (
     <div>
-      <nav className="flex items-center justify-between bg-gray-800 p-2">
+      <nav className="flex items-center justify-between bg-gray-800 p-2 w-full fixed z-20">
       {/* Logo */}
       <div className="flex items-center">
         <img src={logo} alt="Logo" className="w-20 h-auto mr-2 ml-4" />
@@ -29,6 +29,7 @@ const Navbar = () => {
       <MenuButton /> {/* Pass the setActive prop to MenuButton */}
       </div>
       </nav>
+      <div className='pt-16'>
       <Body />
       <Services />
       <Career />
@@ -38,6 +39,7 @@ const Navbar = () => {
       <Contact />
       <Subscribe />
       <Footer />
+      </div>
     </div>
   );
 };
